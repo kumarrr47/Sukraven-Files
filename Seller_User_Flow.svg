@@ -1,0 +1,86 @@
+<svg width="680" height="1796" viewBox="0 0 680 1796" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<style>
+.step { fill:#F1EFE8; stroke:#5F5E5A; stroke-width:1; }
+.decision { fill:#FAEEDA; stroke:#854F0B; stroke-width:1; }
+.terminal { fill:#C0DD97; stroke:#27500A; stroke-width:1; }
+.title-text { font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:600; fill:#1a1a1a; }
+.sub-text { font-family:Arial,Helvetica,sans-serif; font-size:11px; fill:#333333; }
+.main-title { font-family:Arial,Helvetica,sans-serif; font-size:16px; font-weight:700; fill:#111111; }
+.arrow { stroke:#555555; stroke-width:1.5; fill:none; }
+</style>
+<rect x="0" y="0" width="680" height="1796" fill="#ffffff"/>
+<text x="340" y="25" text-anchor="middle" class="main-title">Seller user flow — Sukraven livestock marketplace</text>
+<g><rect x="180" y="40" width="320" height="44" rx="8" class="terminal"/>
+<text x="340" y="62.0" text-anchor="middle" dominant-baseline="central" class="title-text">Start</text></g>
+<g><rect x="180" y="120" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="142.0" text-anchor="middle" dominant-baseline="central" class="title-text">Open app</text></g>
+<g><rect x="180" y="200" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="222.0" text-anchor="middle" dominant-baseline="central" class="title-text">Login</text></g>
+<g><rect x="180" y="280" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="302.0" text-anchor="middle" dominant-baseline="central" class="title-text">Sell</text></g>
+<g><rect x="180" y="360" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="382.0" text-anchor="middle" dominant-baseline="central" class="title-text">Create listing</text></g>
+<g><rect x="180" y="440" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="462.0" text-anchor="middle" dominant-baseline="central" class="title-text">Enter animal details</text></g>
+<g><rect x="180" y="520" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="542.0" text-anchor="middle" dominant-baseline="central" class="title-text">Upload photos</text></g>
+<g><rect x="180" y="600" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="622.0" text-anchor="middle" dominant-baseline="central" class="title-text">Upload video</text></g>
+<g><rect x="180" y="680" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="702.0" text-anchor="middle" dominant-baseline="central" class="title-text">Health details</text></g>
+<g><rect x="180" y="760" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="782.0" text-anchor="middle" dominant-baseline="central" class="title-text">Vaccination details</text></g>
+<g><rect x="180" y="840" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="862.0" text-anchor="middle" dominant-baseline="central" class="title-text">Set price</text></g>
+<line x1="340" y1="84" x2="340" y2="120" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="164" x2="340" y2="200" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="244" x2="340" y2="280" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="324" x2="340" y2="360" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="404" x2="340" y2="440" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="484" x2="340" y2="520" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="564" x2="340" y2="600" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="644" x2="340" y2="680" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="724" x2="340" y2="760" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="804" x2="340" y2="840" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="884" x2="340" y2="920" class="arrow" marker-end="url(#arrow)"/>
+<g><polygon points="340,920 415,965 340,1010 265,965" class="decision"/>
+<text x="340" y="965" text-anchor="middle" dominant-baseline="central" class="title-text">Enable bargaining?</text></g>
+<text x="220" y="998" text-anchor="start" class="sub-text">No</text>
+<path d="M265,965 L265,1030 L340,1030" class="arrow" fill="none"/>
+<text x="430" y="998" text-anchor="start" class="sub-text">Yes</text>
+<path d="M415,965 L415,1030 L340,1030" class="arrow" fill="none"/>
+<line x1="340" y1="1030" x2="340" y2="1060" class="arrow" marker-end="url(#arrow)"/>
+<g><rect x="180" y="1060" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1082.0" text-anchor="middle" dominant-baseline="central" class="title-text">Publish listing</text></g>
+<line x1="340" y1="1104" x2="340" y2="1180" class="arrow" marker-end="url(#arrow)"/>
+<g><rect x="180" y="1180" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1202.0" text-anchor="middle" dominant-baseline="central" class="title-text">Receive buyer offers</text></g>
+<line x1="340" y1="1224" x2="340" y2="1260" class="arrow" marker-end="url(#arrow)"/>
+<g><polygon points="340,1260 415,1305 340,1350 265,1305" class="decision"/>
+<text x="340" y="1305" text-anchor="middle" dominant-baseline="central" class="title-text">Accept offer?</text></g>
+<text x="350" y="1375" text-anchor="middle" class="sub-text">No</text>
+<text x="425" y="1298" text-anchor="start" class="sub-text">Yes</text>
+<line x1="415" y1="1305" x2="540" y2="1305" class="arrow"/>
+<line x1="340" y1="1350" x2="340" y2="1386" class="arrow" marker-end="url(#arrow)"/>
+<g><rect x="180" y="1386" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1408.0" text-anchor="middle" dominant-baseline="central" class="title-text">Counter offer</text></g>
+<text x="85" y="1305" text-anchor="start" class="sub-text">Retry</text>
+<path d="M180,1408 L80,1408 L80,1202 L180,1202" class="arrow" marker-end="url(#arrow)" fill="none"/>
+<path d="M540,1305 L540,1496 L340,1496 L340,1516" class="arrow" marker-end="url(#arrow)" fill="none"/>
+<g><rect x="180" y="1516" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1538.0" text-anchor="middle" dominant-baseline="central" class="title-text">Receive Bayana reservation</text></g>
+<line x1="340" y1="1560" x2="340" y2="1596" class="arrow" marker-end="url(#arrow)"/>
+<g><rect x="180" y="1596" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1618.0" text-anchor="middle" dominant-baseline="central" class="title-text">Arrange delivery or pickup</text></g>
+<line x1="340" y1="1640" x2="340" y2="1676" class="arrow" marker-end="url(#arrow)"/>
+<g><rect x="180" y="1676" width="320" height="44" rx="8" class="terminal"/>
+<text x="340" y="1698.0" text-anchor="middle" dominant-baseline="central" class="title-text">Complete transaction</text></g>
+<rect x="140" y="1750" width="16" height="16" rx="3" class="step"/><text x="162" y="1758" dominant-baseline="central" class="sub-text">Process step</text>
+<rect x="310" y="1750" width="16" height="16" rx="3" class="decision"/><text x="332" y="1758" dominant-baseline="central" class="sub-text">Decision point</text>
+<rect x="490" y="1750" width="16" height="16" rx="3" class="terminal"/><text x="512" y="1758" dominant-baseline="central" class="sub-text">Start / end</text>
+</svg>

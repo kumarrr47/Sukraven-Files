@@ -1,0 +1,107 @@
+<svg width="680" height="2266" viewBox="0 0 680 2266" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<style>
+.step { fill:#F1EFE8; stroke:#5F5E5A; stroke-width:1; }
+.decision { fill:#FAEEDA; stroke:#854F0B; stroke-width:1; }
+.terminal { fill:#C0DD97; stroke:#27500A; stroke-width:1; }
+.title-text { font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:600; fill:#1a1a1a; }
+.sub-text { font-family:Arial,Helvetica,sans-serif; font-size:11px; fill:#333333; }
+.main-title { font-family:Arial,Helvetica,sans-serif; font-size:16px; font-weight:700; fill:#111111; }
+.arrow { stroke:#555555; stroke-width:1.5; fill:none; }
+rect { }
+</style>
+<rect x="0" y="0" width="680" height="2266" fill="#ffffff"/>
+<text x="340" y="25" text-anchor="middle" class="main-title">Buyer user flow — Sukraven livestock marketplace</text>
+<g><rect x="180" y="40" width="320" height="44" rx="8" class="terminal"/>
+<text x="340" y="62.0" text-anchor="middle" dominant-baseline="central" class="title-text">Start</text></g>
+<g><rect x="180" y="120" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="142.0" text-anchor="middle" dominant-baseline="central" class="title-text">Open Sukraven &amp; select language</text></g>
+<g><rect x="180" y="200" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="222.0" text-anchor="middle" dominant-baseline="central" class="title-text">Login or continue as guest</text></g>
+<g><rect x="180" y="280" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="302.0" text-anchor="middle" dominant-baseline="central" class="title-text">Home</text></g>
+<g><rect x="180" y="360" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="382.0" text-anchor="middle" dominant-baseline="central" class="title-text">Search or browse categories</text></g>
+<g><rect x="180" y="440" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="462.0" text-anchor="middle" dominant-baseline="central" class="title-text">Apply filters (optional)</text></g>
+<g><rect x="180" y="520" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="542.0" text-anchor="middle" dominant-baseline="central" class="title-text">View listings &amp; select livestock</text></g>
+<g><rect x="180" y="600" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="622.0" text-anchor="middle" dominant-baseline="central" class="title-text">View animal details</text></g>
+<line x1="340" y1="84" x2="340" y2="120" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="164" x2="340" y2="200" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="244" x2="340" y2="280" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="324" x2="340" y2="360" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="404" x2="340" y2="440" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="484" x2="340" y2="520" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="564" x2="340" y2="600" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="644" x2="340" y2="680" class="arrow" marker-end="url(#arrow)"/>
+<g><polygon points="340,680 415,725 340,770 265,725" class="decision"/>
+<text x="340" y="725" text-anchor="middle" dominant-baseline="central" class="title-text">Interested?</text></g>
+<text x="200" y="715" text-anchor="start" class="sub-text">No</text>
+<path d="M265,725 L100,725 L100,382 L180,382" class="arrow" marker-end="url(#arrow)" fill="none"/>
+<line x1="340" y1="770" x2="340" y2="860" class="arrow" marker-end="url(#arrow)"/><text x="350" y="815" text-anchor="middle" class="sub-text">Yes</text>
+<g><rect x="180" y="860" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="882.0" text-anchor="middle" dominant-baseline="central" class="title-text">View seller profile</text></g>
+<g><rect x="180" y="940" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="962.0" text-anchor="middle" dominant-baseline="central" class="title-text">Start bargaining, send offer</text></g>
+<g><rect x="180" y="1020" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1042.0" text-anchor="middle" dominant-baseline="central" class="title-text">Seller reviews offer</text></g>
+<line x1="340" y1="904" x2="340" y2="940" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="984" x2="340" y2="1020" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="1064" x2="340" y2="1100" class="arrow" marker-end="url(#arrow)"/>
+<g><polygon points="340,1100 415,1145 340,1190 265,1145" class="decision"/>
+<text x="340" y="1145" text-anchor="middle" dominant-baseline="central" class="title-text">Accepted?</text></g>
+<text x="350" y="1213" text-anchor="middle" class="sub-text">No</text>
+<text x="425" y="1138" text-anchor="start" class="sub-text">Yes</text>
+<line x1="415" y1="1145" x2="470" y2="1145" class="arrow"/>
+<line x1="340" y1="1190" x2="340" y2="1226" class="arrow" marker-end="url(#arrow)"/>
+<g><rect x="180" y="1226" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1248.0" text-anchor="middle" dominant-baseline="central" class="title-text">Seller sends counter offer</text></g>
+<g><rect x="180" y="1306" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1328.0" text-anchor="middle" dominant-baseline="central" class="title-text">Buyer reviews counter offer</text></g>
+<line x1="340" y1="1270" x2="340" y2="1306" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="1350" x2="340" y2="1386" class="arrow" marker-end="url(#arrow)"/>
+<g><polygon points="340,1386 415,1431 340,1476 265,1431" class="decision"/>
+<text x="340" y="1431" text-anchor="middle" dominant-baseline="central" class="title-text">Counter OK?</text></g>
+<text x="350" y="1499" text-anchor="middle" class="sub-text">No</text>
+<text x="425" y="1424" text-anchor="start" class="sub-text">Yes</text>
+<line x1="415" y1="1431" x2="470" y2="1431" class="arrow"/>
+<line x1="470" y1="1145" x2="470" y2="1580" class="arrow"/>
+<line x1="340" y1="1476" x2="340" y2="1512" class="arrow" marker-end="url(#arrow)"/>
+<g><rect x="180" y="1512" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1534.0" text-anchor="middle" dominant-baseline="central" class="title-text">Make new offer or exit</text></g>
+<text x="85" y="1255" text-anchor="start" class="sub-text">Retry</text>
+<path d="M180,1534 L80,1534 L80,962 L180,962" class="arrow" marker-end="url(#arrow)" fill="none"/>
+<path d="M470,1580 L340,1580 L340,1620" class="arrow" marker-end="url(#arrow)" fill="none"/>
+<g><rect x="180" y="1620" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1642.0" text-anchor="middle" dominant-baseline="central" class="title-text">Bayana reservation</text></g>
+<g><rect x="180" y="1700" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1722.0" text-anchor="middle" dominant-baseline="central" class="title-text">Make payment</text></g>
+<line x1="340" y1="1664" x2="340" y2="1700" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="1744" x2="340" y2="1780" class="arrow" marker-end="url(#arrow)"/>
+<g><polygon points="340,1780 415,1825 340,1870 265,1825" class="decision"/>
+<text x="340" y="1825" text-anchor="middle" dominant-baseline="central" class="title-text">Payment OK?</text></g>
+<text x="200" y="1815" text-anchor="start" class="sub-text">No</text>
+<path d="M265,1825 L100,1825 L100,1722 L180,1722" class="arrow" marker-end="url(#arrow)" fill="none"/>
+<text x="350" y="1895" text-anchor="middle" class="sub-text">Yes</text>
+<line x1="340" y1="1870" x2="340" y2="1906" class="arrow" marker-end="url(#arrow)"/>
+<g><rect x="180" y="1906" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="1928.0" text-anchor="middle" dominant-baseline="central" class="title-text">Order confirmed</text></g>
+<g><rect x="180" y="1986" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="2008.0" text-anchor="middle" dominant-baseline="central" class="title-text">Pickup or delivery arranged</text></g>
+<g><rect x="180" y="2066" width="320" height="44" rx="8" class="step"/>
+<text x="340" y="2088.0" text-anchor="middle" dominant-baseline="central" class="title-text">Track order</text></g>
+<g><rect x="180" y="2146" width="320" height="44" rx="8" class="terminal"/>
+<text x="340" y="2168.0" text-anchor="middle" dominant-baseline="central" class="title-text">Transaction complete</text></g>
+<line x1="340" y1="1950" x2="340" y2="1986" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="2030" x2="340" y2="2066" class="arrow" marker-end="url(#arrow)"/>
+<line x1="340" y1="2110" x2="340" y2="2146" class="arrow" marker-end="url(#arrow)"/>
+<rect x="140" y="2220" width="16" height="16" rx="3" class="step"/><text x="162" y="2228" dominant-baseline="central" class="sub-text">Process step</text>
+<rect x="310" y="2220" width="16" height="16" rx="3" class="decision"/><text x="332" y="2228" dominant-baseline="central" class="sub-text">Decision point</text>
+<rect x="490" y="2220" width="16" height="16" rx="3" class="terminal"/><text x="512" y="2228" dominant-baseline="central" class="sub-text">Start / end</text>
+</svg>
